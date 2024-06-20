@@ -1,0 +1,32 @@
+.button-style {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.newbie{
+    background-color: #696969; 
+}
+.pupil{
+    background-color: #008000; 
+}
+.specialist{
+    background-color: #00cff3; 
+}
+.expert{
+    background-color: #0000FF; 
+}
+.candidate-master{
+    background-color: #7700ff; 
+}
+.master{
+    background-color: #d8d400; 
+}
+.grandmaster{
+    background-color: #FF0000; 
+}

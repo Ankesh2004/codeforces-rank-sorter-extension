@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Rank Sorter",
+    "version": "1.0",
+    "description": "Sort Codeforces submissions based on user rankings.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://codeforces.com/contest/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
